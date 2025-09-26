@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira", sans-serif;
+}
+
+body {
+     background-image: url(../img/bolo-capa-3.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    border: 2px solid #8e1f1f;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #c42828;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(63, 182, 67);
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #c42828;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
