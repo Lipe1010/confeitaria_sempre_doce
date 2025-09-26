@@ -16,8 +16,8 @@ body {
 }
 
 header {
-    background-color: #fe8dc4;
-    color: #c4eae5;
+    background-color: #583e1c;
+    color: #d72424;
     padding: 20px;
 }
 
@@ -38,12 +38,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #c4eae5;
+    color: #d72424;
     text-decoration: none;
 }
 
 nav ul li a:hover {
     font-weight: bold;
     text-decoration: underline;
-    color: rgb(138, 68, 138);
+    color: rgb(63, 182, 67);
+}
+
+.img-carrosel {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
 }
