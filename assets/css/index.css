@@ -16,9 +16,19 @@ body {
 }
 
 header {
-    background-color: #583e1c;
-    color: #d72424;
+    display: flex;
+    background-color: #80593E;
+    color: #8e1f1f;
     padding: 20px;
+}
+
+.logo {
+    width: 0;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 30px;
 }
 
 header h1 {
@@ -38,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #d72424;
+    color: #c42828;
     text-decoration: none;
     font-size: 25px;
 }
